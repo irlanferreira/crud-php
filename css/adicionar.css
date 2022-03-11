@@ -1,0 +1,42 @@
+section{
+    width: fit-content;
+    margin: 10vw auto;
+    padding: 0px 20px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.219);
+}
+div#secheader{
+    border-radius: 6px 6px 0px 0px;
+    margin: 0px -20px;
+    padding: 10px;
+    text-align: left;
+    background-color: #e2294e;
+    color: white;
+}
+.input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 3px;
+    width: 100%;
+
+    border: 2px solid rgba(0, 0, 0, 0.377);
+    border-radius: 3px;
+}
+#cadastrar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    padding: 5px;
+    border: none;
+    background-color: #e2294ed7;
+    color: white;
+    border-radius: 3px;
+}
+#voltar{
+
+    color: #e2294ec9;
+    margin: 10px;
+}
+#voltar p{
+    text-align: center;
+}
