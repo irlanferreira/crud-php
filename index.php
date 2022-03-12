@@ -44,7 +44,7 @@ if(isset($_GET['id'])){
                             <td>$email</td>
                             <td>$telefone</td>
                             <td>$id</td>
-                            <td><a href='editar.php?' class='operacao' id='editar'>Editar</a><a href='index.php?id=$id' class='operacao' id='deletar'>Deletar</a></td>
+                            <td><a href='editar.php?id=$id' class='operacao' id='editar'>Editar</a><a href='index.php?id=$id' class='operacao' id='deletar'>Deletar</a></td>
                         </tr>
                         ";
                     } ?>

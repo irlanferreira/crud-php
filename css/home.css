@@ -39,8 +39,8 @@ tr:nth-child(even){
 #adicionar{
     margin: 10px 0px;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     border-radius: 4px;
     padding: 3px 5px;
-    background-color: rgb(148, 243, 148);
+    background-color: rgb(88, 190, 88);
 }

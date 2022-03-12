@@ -23,12 +23,13 @@ if(isset($_POST['enviado'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adicionar usuário</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/adicionar.css">
+    <link rel="stylesheet" href="css/editar.css">
 </head>
 <body>
     <section>
         <div id="secheader">Cadastrar novo usuario</div>
-        <p style="margin: 10px 0px; background-color: rgba(250, 100, 100, 0.329); padding: 4px; border-radius: 4px;"><?= isset($msg)?$msg:'' ?></p>
+        <?=isset($msg)?"<p style='margin: 10px 0px; background-color: rgba(250, 100, 100, 0.329); padding: 4px; border-radius: 4px;'>$msg</p>":''?>
+        
         <form action="" method="POST">
             <input type="text" name="fUsuario" class="input" placeholder="Nome de Usuário" required><br>
             <input type="email" name="fEmail" class="input" placeholder="Email" required><br>
